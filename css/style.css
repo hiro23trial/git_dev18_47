@@ -1,0 +1,463 @@
+/* ここから下に記載していく */
+.header{
+  height:120px;
+}
+
+.header-logo{
+  float:left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.header-title{
+  float:left;
+}
+
+.header-list li{
+  font-size:21px;
+  padding:50px 50px 50px 0px;
+  float:right;
+}
+
+.top-wrapper{
+  color:white;
+  background-image:url(../img/mainbg.png);
+  background-size:cover;
+  text-align:center;
+}
+
+.container h1{
+  padding-top:200px;
+  padding-bottom:30px;
+  font-size:55px;
+  text-align:center;
+}
+
+.container h2{
+  padding-bottom:200px;
+  font-size:38px;
+}
+
+.about-container{
+  text-align:center;
+}
+
+.about-container h1{
+  padding-top:60px;
+  padding-bottom:30px;
+  font-size:24px;
+  color:#ffd61a;
+  font-weight:bold;
+}
+
+.about-container h2{
+  font-size:18px;
+  padding-bottom:60px;
+}
+
+.about-container h3{
+  padding-bottom:30px;
+}
+
+.about-container h4{
+  line-height:150%;
+}
+
+.about-container h5{
+  padding:40px 40px;
+}
+
+.about-container h6{
+  line-height:150%;
+}
+
+.picture-container{
+  padding-top:80px;
+  padding-bottom:60px;
+  float:left;
+  width:25%;
+}
+
+.course-container{
+  text-align:center;
+}
+
+.course-container h1{
+  padding-bottom:30px;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.course-container p{
+  line-height:150%;
+}
+
+.course-box1{
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+}
+
+.course-text1{
+  font-size:16px;
+  width:480px;
+  margin-left:50px;
+}
+
+.course-text1 h1{
+  margin-top:120px;
+  margin-bottom:40px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.course-text1 p{
+  line-height:200%;
+} 
+
+.course-box2{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 73px;
+}
+
+.course-text2{
+  font-size:16px;
+  width:480px;
+  margin-right:50px;
+}
+
+.course-text2 h1{
+  margin-top:120px;
+  margin-bottom:40px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.course-text2 p{
+  line-height:200%;
+} 
+
+.course-box3{
+  display: flex;
+  flex-direction: row;
+}
+
+.course-text3{
+  font-size:16px;
+  width:480px;
+  margin-left:50px;
+}
+
+.course-text3 h1{
+  margin-top:120px;
+  margin-bottom:40px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.course-text3 p{
+  line-height:200%;
+} 
+
+.news{
+  text-align:center;
+}
+
+.news-container h1{
+  padding-top:60px;
+  padding-bottom:30px;
+  font-size:24px;
+  color:#ffd61a;
+  font-weight:bold;
+}
+
+/* widthに直せていない300 */
+.news-pic{
+  padding-top: 60px;
+  display: inline-block;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a{
+  margin: 0 15px 0 15px;
+  text-align: left;
+}
+
+.a:hover{
+  border: solid;
+  border-color:red;
+}
+
+.a h1{
+  padding: 30px 0 24px 0;
+}
+
+.a p{
+  line-height:200%;
+}
+
+.news-more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.news-more h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width:300px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.news-more h1:hover{
+  margin: 0 auto;
+  width:300px;
+  background-color: #ffd61a;
+  color:white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.access{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.access-container1 h1{
+  padding: 60px 0px 30px 0px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.access-container1 h2{
+  padding-bottom: 60px;
+}
+
+.map{
+  padding-bottom: 60px;
+}
+
+.access-container2 {
+  text-align: left;
+  display: inline-block;
+}
+
+.access-container2 p{
+  padding-bottom: 30px;
+}
+
+.space1{
+  padding-left: 80px;
+}
+
+.space2{
+  padding-left: 32px;
+}
+
+.space3{
+  padding-left: 100px;
+}
+
+.space4{
+  padding-left: 100px;
+}
+
+.space5{
+  padding-left: 90px;
+}
+
+.contact{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.contact-container h1{
+  padding-top:60px;
+  padding-bottom:30px;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.contact-container h2{
+  padding-bottom: 60px;
+}
+
+.contact-container h3{
+  padding-bottom: 30px;
+  line-height:200%;
+}
+
+.contact-container h4{
+  padding-bottom: 70px;
+  line-height:200%;
+}
+
+.form{
+  margin: 0 auto;
+  text-align: center;
+  padding-top:70px;
+}
+
+.box1{
+  margin: 0  auto;
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  border-top: 3px solid #bfbfbf ;
+  border-bottom:1px solid #bfbfbf ;
+}
+
+.box1 h1{
+  text-align: left;
+  width: 240px;
+  border-right: 1px solid #bfbfbf ;
+  padding: 20px 20px;
+}
+
+.box1 input{
+  margin: 8px;
+  width: 328px;
+  height: 36px;
+}
+
+.box2{
+  margin: 0  auto;
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  border-bottom:1px solid #bfbfbf ;
+}
+
+.box2 h1{
+  text-align: left;
+  width: 240px;
+  border-right: 1px solid #bfbfbf ;
+  padding: 20px 20px;
+}
+
+.box2 input{
+  margin: 8px;
+  width: 328px;
+  height: 36px;
+}
+
+.box3{
+  margin: 0  auto;
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  border-bottom:1px solid #bfbfbf ;
+}
+
+.box3 h1{
+  text-align: left;
+  width: 240px;
+  border-right: 1px solid #bfbfbf ;
+  padding: 20px 20px;
+}
+
+.box3 input{
+  margin: 8px;
+  width: 328px;
+  height: 36px;
+}
+
+.box4{
+  margin: 0  auto;
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  border-bottom:1px solid #bfbfbf ;
+  
+}
+
+.box4 h1{
+  text-align: left;
+  width: 240px;
+  padding-right: 64px;
+  border-right: 1px solid #bfbfbf ;
+  padding: 20px 20px;
+  line-height: 16px;
+}
+
+.box4 select{
+  margin: 8px;
+  width: 328px;
+  height: 36px;
+}
+
+.box4 label{
+  text-align: left;
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+}
+
+span1{
+  padding: 24px;
+  
+}
+
+.box6{
+  margin: 0  auto;
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  border-bottom:1px solid #bfbfbf ;
+}
+
+.box6 h1{
+  text-align: left;
+  width: 240px;
+  border-right: 1px solid #bfbfbf ;
+  padding: 20px 20px;
+}
+
+textarea{
+  margin: 8px;
+  width: 328px;
+  height: 100px;
+}
+
+.submit{
+  padding-top: 30px;
+padding-bottom: 140px;
+}
+
+.submit input{
+  margin: 0 auto;
+  width:300px;
+  height: 60px;
+  font-size: 18px;
+  border: none;
+}
+
+.submit input:hover{
+  margin: 0 auto;
+  width:300px;
+  height: 60px;
+  background-color: #ffd61a;
+  color:white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h1{
+  text-align: center;
+  padding: 30px 30px;
+  background-color: #707070;
+  color: white;
+}
